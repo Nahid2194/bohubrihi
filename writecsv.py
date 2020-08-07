@@ -1,0 +1,10 @@
+import csv
+output = open('output.csv','w',newline='')
+output_writer = csv.writer(output)
+output_writer.writerow([1,2,3,4,5])
+output_writer.writerow([1,2,3,4,5])
+output_writer.writerow([1,2,3,4,5])
+output_writer.writerow([1,2,3,4,5])
+output_writer.writerow([1,2,3,4,5])
+output_writer.writerow([1,2,3,4,5])
+output_writer.writerow([1,2,3,4,5])
